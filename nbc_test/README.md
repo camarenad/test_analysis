@@ -46,6 +46,6 @@ This model works well with time series because it allows control over various ki
 - When we average our data our combined open rate for emails A,B,C,D
 is 25%. 
 
-![open_rate_all](images/open_rate_all.png)
+![open_rate_all](images/open_combined.png)
 
 
