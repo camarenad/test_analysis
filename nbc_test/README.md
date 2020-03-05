@@ -7,9 +7,12 @@ This model works well with time series because it allows control over various ki
 
 - After modeling the data we can see that on October-15 we can expect to see approximately 18-20k views on our website. 
 
+#### Margin of error
 ![Margin of Error](images/error.png)
 
 ![Predictions](images/prediction.png)
 
+### Visits and Searchs visualized
 
+![pairplot](images/searches)
 
