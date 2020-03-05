@@ -10,7 +10,7 @@ This model works well with time series because it allows control over various ki
 #### Margin of error
 ![Margin of Error](images/error.png)
 
-![Predictions](images/prediction.png)
+![Predictions](images/prediction1.png)
 
 ### Visits and Searches
 
