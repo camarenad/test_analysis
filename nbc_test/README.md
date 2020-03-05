@@ -22,4 +22,4 @@ This model works well with time series because it allows control over various ki
 ## Email Open Rate
 - The data suggests that the first email has an open rate of 80% while the second email has a lower open rate of 45%.  The overall open rate for all emails is around 50%.  This means that email one performed above average while email two fell short.
 
-![openrate](images/openrate.png)
+![open_rate](images/open_rate.png)
