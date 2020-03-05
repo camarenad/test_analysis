@@ -4,6 +4,7 @@ SELECT CustName, CustID, ProductName,Qty,XDate
 FROM OrderDetail
 WHERE ProductName LIKE %Hat%
 AND YEAR(Xdate) = 2016
+GROUP BY CustName
 
 We would like to find those customers who bought only hats (value "Hat") in 2016. Also include total quantity of hats per customer
 
@@ -11,3 +12,4 @@ SELECT CustName, CustID, ProductName,Qty, XDate
 FROM OrderDetail
 WHERE ProductName IN ('Hat') 
 AND YEAR(Xdate) = 2016
+GROUP BY CustName
