@@ -31,7 +31,7 @@ is 25%.
 
 ## SQL
 - Find those customers who bought hats (value "Hat") in 2016. Also include total quantity of hats per customer:
-
+```
  SELECT
  custid as cid, 
  custname as cname, 
@@ -42,11 +42,13 @@ is 25%.
  AND
  productname = 'Hat'
  GROUP BY cid, cname
+ ```
 
 
 
 - Find those customers who bought only hats (value "Hat") in 2016. Also include total quantity of hats per customer
 
+ ```
  SELECT custname as cname,
  COUNT(DISTINCT productname),
  SUM(qty)
@@ -54,5 +56,6 @@ is 25%.
  WHERE CAST(xdate AS DATE) BETWEEN  '2016/01/01' AND '2016/12/31'
  AND productname = 'hat' 
  GROUP BY(cname,productname)
+ ```
 
 
