@@ -16,7 +16,7 @@ This model works well with time series because it allows control over various ki
 
 - We observe some correlation between searches and web traffic
 
-![pairplot](images/searches.png)# Summary
+![pairplot](images/searches.png)
 
 ## Visits and Searches
 
