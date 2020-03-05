@@ -14,5 +14,5 @@ This model works well with time series because it allows control over various ki
 
 ### Visits and Searchs visualized
 
-![pairplot](images/searches)
+![pairplot](images/searches.png)
 
